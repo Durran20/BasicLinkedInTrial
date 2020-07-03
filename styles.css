@@ -1,0 +1,216 @@
+body{
+  background-color: #eeeeee;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #204051;
+  overflow: hidden;
+  position: fixed;
+  z-index: +1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  /* float: left; */
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+
+.topnav input[type=text] {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color: #eeeeee;
+}
+
+.logo-img{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 5px;
+  left: 15%;
+}
+
+
+.search{
+  position: absolute;
+  bottom: 5px;
+  /* left: 30px; */
+  left: 17.5%;
+
+}
+.division-right{
+  position: relative;
+  left: 20%;
+}
+
+i{
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  color: grey;
+}
+
+.navbar-icons:hover{
+  color: white;
+}
+
+.card-row{
+  width: 90%;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  line-height: 2;
+  position: relative;
+}
+
+.card-image{
+  height: 50px;
+  width:50px;
+  border-radius: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.card{
+  margin: 10px;
+  background-color: white;
+  width: 50%;
+  display: inline-block;
+  box-shadow: 2px 2px 1px grey;
+}
+.card-title{
+  color: black;
+  text-decoration: none;
+}
+
+.card-title-text{
+  font-size: 1rem;
+  font-weight:500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-title:hover{
+  text-decoration: underline;
+}
+.card-small-text{
+  font-size: 0.5rem;
+}
+
+.main-section{
+  position: relative;
+  top: 50px;
+}
+.top{
+  text-align: left;
+  padding: 10px;
+  position: relative;
+}
+.top-anchor{
+  color: black;
+  text-decoration: none;
+}
+.top-anchor:hover{
+  text-decoration: underline;
+}
+
+.middle{
+  width: 70%;
+}
+
+img{
+  width: 100%;
+}
+
+h4{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+p{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.bottom{
+  text-align: left;
+  padding: 10px;
+}
+hr{
+  width: 90%;
+}
+.comments{
+  padding: 10px;
+}
+.bottom-icons{
+  padding: 10px;
+}
+
+.bottom-icons:hover{
+  background-color: #eeeeee;
+}
+
+.options{
+  position: absolute;
+  right:10px;
+  bottom: 5px;
+}
+.options:hover{
+  background-color: #eeeeee;
+}
+
+.follow{
+  position: absolute;
+  left: 90%;
+  bottom: 20px;
+  color: blue;
+}
+
+/* Profile card */
+.right-profile{
+  position: absolute;
+  left: 8%;
+  top: 15px;
+  text-align: center;
+  width: 15%;
+  background-color: white;
+  box-shadow: 2px 2px 1px grey;
+
+}
+.profile-card{
+  background-image: url("images/google1.jpg");
+  height: 100px;
+  position: relative;
+}
+.profile-img{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 85px;
+}
+.connections{
+  padding-bottom: 10%;
+}
